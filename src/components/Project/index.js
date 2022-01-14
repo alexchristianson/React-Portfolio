@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectCard from '../Project-Card';
+// import image from '../../assets/images/gamespotblog.jpg'
 
 const portfolio = [
     {
         name: "Game Spot Blog",
         description: "A blog for gamers made with node.js, express, MySql, sequelize, dotenv, bcrypt, bulma, express-session, and handlebars.",
-        image: "../../assets/images/gamespotblog.jpg",
+        // image: src={require("../../assets/images/gamespotblog.jpg")},
         url: "https://tranquil-tor-89831.herokuapp.com/",
         github: "https://github.com/alexchristianson/game-spot-blog"
     },
@@ -45,8 +46,8 @@ const portfolio = [
 function Projects() {
     return (
         <div>
-          <h1 className="title">Friends List</h1>
-          {friendsList.map(function(friend) {
+          <h1 className="title">Projects</h1>
+          {portfolio.map(function(portfolio) {
             return <ProjectCard 
                 name={portfolio.name}
                 description={portfolio.description}

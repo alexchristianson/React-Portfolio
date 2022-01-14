@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Project';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import Navigation from './components/Navigation';
 // import Contact
 import logo from './logo.svg';
 import './App.css';
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <Navigation />
         <Switch>
           <Route 
             exact path="/about" component={About}
@@ -27,6 +29,9 @@ function App() {
           /> */}
           <Route 
             exact path="/resume" component={Resume}
+          />
+          <Route
+            component={About}
           />
         </Switch>
         <Footer />
