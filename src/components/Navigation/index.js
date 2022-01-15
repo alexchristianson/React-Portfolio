@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 function Navigation() {
     return (
         <nav>
-            <ul>
-                <li>
+            <ul className='row justify-content-center'>
+                <li className='col-md-2 col-sm-6 mb-2'>
                     <NavLink 
                         activeClassName = "active"
                         isActive={() => window.location.pathname === "/about"}
@@ -14,7 +14,7 @@ function Navigation() {
                     About
                     </NavLink>
                 </li>
-                <li>
+                <li className='col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/projects"}
@@ -23,16 +23,16 @@ function Navigation() {
                     Projects
                     </NavLink>
                 </li>
-                <li>
+                <li className='col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/contact"}
-                        to = "/contacts"
+                        to = "/contact"
                     >
                     Contact
                     </NavLink>
                 </li>
-                <li>
+                <li className='col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/resume"}

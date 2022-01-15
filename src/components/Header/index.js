@@ -3,12 +3,12 @@ import React from 'react';
 
 function Header () {
     return (
-        <section>
-            <h1>
+        <header>
+            <h1 className='col-4'>
                 Alex Christianson
             </h1>
             {/* <Navigation></Navigation> */}
-        </section>
+        </header>
     )
 }
 
