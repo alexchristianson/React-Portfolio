@@ -4,7 +4,7 @@ import React from 'react';
 function Header () {
     return (
         <header>
-            <h1 className='col-4'>
+            <h1 className='col-4 py-3'>
                 Alex Christianson
             </h1>
             {/* <Navigation></Navigation> */}

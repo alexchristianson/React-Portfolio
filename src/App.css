@@ -43,10 +43,22 @@ body {
   background-color: rgb(176, 234, 248);
 }
 
+header {
+  background-color: rgb(159, 118, 226) ;
+}
+
+nav {
+  background-color: rgb(113, 228, 218);
+}
+
+.active {
+  color: rgb(55, 9, 73);
+}
+
 .card {
-  background-color: rgb(243, 211, 174);
+  background-color: rgb(159, 118, 226);
   border: black;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 li {

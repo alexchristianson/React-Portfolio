@@ -39,23 +39,23 @@ function Contact() {
             <h1>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label className="mb-3 me-3" htmlFor="name">Name:</label>
+                    <label className="col-12 mt-3 mb-3 me-3" htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <div>
-                    <label className="mb-3 me-3" htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                    <label className="col-12 mt-3 mb-3 me-3" htmlFor="email">Email address:</label>
+                    <input className="col-4" type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div>
-                    <label className="mb-3 me-3" htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                    <label className="col-12 mt-3 mb-3 me-3" htmlFor="message">Message:</label>
+                    <textarea className="col-6" name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 </div> 
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button className="btn-secondary mb-3" type="submit">Submit</button>
+                <button className="btn-secondary mt-3 mb-3" type="submit">Submit</button>
             </form>
         </section>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProjectCard(props) {
   return (
-    <div className="card col-md-5 col-sm-12 ms-auto mb-5">
+    <div className="card col-md-5 col-sm-12 ms-auto mb-5 border border-2 border-dark">
         <div className="img-container">
             <img alt={props.name} src={props.image} />
         </div>

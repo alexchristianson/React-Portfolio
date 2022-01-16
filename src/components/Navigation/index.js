@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <nav>
             <ul className='row justify-content-center'>
-                <li className='col-md-2 col-sm-6 mb-2'>
+                <li className='nav-link col-md-2 col-sm-6 mb-2'>
                     <NavLink 
                         activeClassName = "active"
                         isActive={() => window.location.pathname === "/about"}
@@ -14,7 +14,7 @@ function Navigation() {
                     About
                     </NavLink>
                 </li>
-                <li className='col-md-2 col-sm-6 mb-2'>
+                <li className='nav-link col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/projects"}
@@ -23,7 +23,7 @@ function Navigation() {
                     Projects
                     </NavLink>
                 </li>
-                <li className='col-md-2 col-sm-6 mb-2'>
+                <li className='nav-link col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/contact"}
@@ -32,7 +32,7 @@ function Navigation() {
                     Contact
                     </NavLink>
                 </li>
-                <li className='col-md-2 col-sm-6 mb-2'>
+                <li className='nav-link col-md-2 col-sm-6 mb-2'>
                     <NavLink
                         activeClassName = "active"
                         isActive ={() => window.location.pathname === "/resume"}
