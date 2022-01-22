@@ -11,7 +11,7 @@ function Navigation() {
                         isActive={() => window.location.pathname === "/about"}
                         to = "/about"
                     >
-                    About
+                    About Me
                     </NavLink>
                 </li>
                 <li className='nav-link col-md-2 col-sm-6 mb-2'>
@@ -20,7 +20,7 @@ function Navigation() {
                         isActive ={() => window.location.pathname === "/projects"}
                         to = "/projects"
                     >
-                    Projects
+                    Portfolio
                     </NavLink>
                 </li>
                 <li className='nav-link col-md-2 col-sm-6 mb-2'>

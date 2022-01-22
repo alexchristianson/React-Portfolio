@@ -13,8 +13,6 @@
   }
 }
 
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -51,14 +49,31 @@ nav {
   background-color: rgb(113, 228, 218);
 }
 
+a:link {
+  text-decoration: none;
+  color:rgb(55, 9, 73);
+}
+
 .active {
   color: rgb(55, 9, 73);
+  font-weight: bold;
+  text-shadow: 2px 2px 8px hotpink;
 }
 
 .card {
   background-color: rgb(159, 118, 226);
   border: black;
   padding-top: 25px;
+}
+
+.card-link {
+  color:rgb(55, 9, 73);
+  font-style: italic;
+}
+
+.card-link:hover {
+  font-weight: bold;
+  text-shadow: 2px 2px 8px hotpink;
 }
 
 li {
