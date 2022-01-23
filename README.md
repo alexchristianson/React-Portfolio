@@ -7,7 +7,7 @@ This is my portfolio created using React.js. It contains a short bio about me, a
 Link to deployed application: :link: https://alexchristianson.github.io/react-portfolio/
 
 ## Screenshot
-![Screenshot of react portfolio](./src/assets/images/Screenshot-react-portfolio.jpg)
+![Screenshot of react portfolio](./src/assets/images/screenshot-react-portfolio.jpg)
 
 
 ## Table of Contents
