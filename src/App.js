@@ -4,7 +4,6 @@ import About from './components/About';
 import Projects from './components/Project';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
-import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -15,7 +14,6 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Navigation />
         <Switch>
           <Route 
             exact path="/about" component={About}

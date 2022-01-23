@@ -55,7 +55,7 @@ const portfolio = [
 
 function Projects() {
     return (
-        <div className='row me-5'>
+        <div className='row justify-content-center me-5'>
           <h1 className="title mb-5">Projects</h1>
           {portfolio.map(function(portfolio) {
             return <ProjectCard 

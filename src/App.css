@@ -38,20 +38,20 @@
 }
 
 body {
-  background-color: rgb(176, 234, 248);
+  background-color: rgb(192, 231, 241);
 }
 
 header {
   background-color: rgb(159, 118, 226) ;
 }
 
-nav {
-  background-color: rgb(113, 228, 218);
-}
+/* nav {
+  background-color: rgb(152, 230, 223);
+} */
 
-a:link {
+a {
   text-decoration: none;
-  color:rgb(55, 9, 73);
+  color: white;
 }
 
 .active {
@@ -71,8 +71,9 @@ a:link {
   font-style: italic;
 }
 
-.card-link:hover {
+a:hover {
   font-weight: bold;
+  color:rgb(55, 9, 73);
   text-shadow: 2px 2px 8px hotpink;
 }
 
@@ -80,7 +81,21 @@ li {
   list-style: none;
 }
 
-.img-container img {
-  width: 80%;
-  padding-bottom: 20px;
+img {
+  max-width: 80%;
+}
+
+section p {
+  text-align: center;
+}
+
+.resume {
+  color:rgb(113, 43, 226);
+  font-weight: bold;
+  font-size:large;
+}
+
+footer {
+  background-color: rgb(5, 179, 164);
+  border-top: 2px rgb(55, 9, 73);
 }
