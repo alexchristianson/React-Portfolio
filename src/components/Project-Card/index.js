@@ -14,8 +14,8 @@ function ProjectCard(props) {
             <h6 className='card-text'>
                 {props.description}
             </h6>
-            <a className='card-link' href='{props.url}'>Deployed Page</a>
-            <a className='card-link' href='{props.github'>GitHub Repo</a>
+            <a className='card-link' href={props.url}>Deployed Page</a>
+            <a className='card-link' href={props.github}>GitHub Repo</a>
         </div>
     </div>
   );
