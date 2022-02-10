@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9eac09f9.css",
-    "main.js": "/react-portfolio/static/js/main.f36494e5.js",
+    "main.js": "/react-portfolio/static/js/main.006d58dc.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/reelroulette.jpg": "/react-portfolio/static/media/reelroulette.772f0aabe23c4ff31319.jpg",
     "static/media/gamespotblog.jpg": "/react-portfolio/static/media/gamespotblog.0ea06ddb75fcf1e46858.jpg",
@@ -14,11 +14,11 @@
     "static/media/avatar.jpg": "/react-portfolio/static/media/avatar.3c3f8ec9bb71dd960233.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.9eac09f9.css.map": "/react-portfolio/static/css/main.9eac09f9.css.map",
-    "main.f36494e5.js.map": "/react-portfolio/static/js/main.f36494e5.js.map",
+    "main.006d58dc.js.map": "/react-portfolio/static/js/main.006d58dc.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eac09f9.css",
-    "static/js/main.f36494e5.js"
+    "static/js/main.006d58dc.js"
   ]
 }
