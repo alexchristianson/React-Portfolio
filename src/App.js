@@ -12,20 +12,20 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/react-portfolio'>
         <Header />
         <Switch>
           <Route 
-            exact path="/react-portfolio/about" component={About}
+            exact path="/about" component={About}
           />
           <Route 
-            exact path="/react-portfolio/projects" component={Projects}
+            exact path="/projects" component={Projects}
           />
           <Route 
-            exact path="/react-portfolio/contact" component={Contact}
+            exact path="/contact" component={Contact}
           />
           <Route 
-            exact path="/react-portfolio/resume" component={Resume}
+            exact path="/resume" component={Resume}
           />
           <Route
             component={About}
