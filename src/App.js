@@ -16,16 +16,16 @@ function App() {
         <Header />
         <Switch>
           <Route 
-            exact path="/about" component={About}
+            exact path="/react-portfolio/about" component={About}
           />
           <Route 
-            exact path="/projects" component={Projects}
+            exact path="/react-portfolio/projects" component={Projects}
           />
           <Route 
-            exact path="/contact" component={Contact}
+            exact path="/react-portfolio/contact" component={Contact}
           />
           <Route 
-            exact path="/resume" component={Resume}
+            exact path="/react-portfolio/resume" component={Resume}
           />
           <Route
             component={About}

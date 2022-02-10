@@ -6,9 +6,17 @@ import image3 from '../../assets/images/reelroulette.jpg';
 import image4 from '../../assets/images/workdayscheduler.jpg';
 import image5 from '../../assets/images/budgettracker.jpg';
 import image6 from '../../assets/images/codingquiz.jpg';
+import image7 from '../../assets/images/theraffler.jpg';
 
 
 const portfolio = [
+    {
+        name: "The Raffler",
+        description: "A tool for organizations to hold fundraising raffles online rather than in person.",
+        image: image7,
+        url: "https://guarded-brushlands-70829.herokuapp.com/",
+        github: "https://github.com/alexchristianson/the-raffler"
+    },
     {
         name: "Game Spot Blog",
         description: "A blog for gamers made with node.js, express, MySql, sequelize, dotenv, bcrypt, bulma, express-session, and handlebars.",
