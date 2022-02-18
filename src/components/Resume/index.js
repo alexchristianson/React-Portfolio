@@ -10,6 +10,7 @@ function Resume() {
                     <li className='col-sm-4 mb-2'>Git/GitHub</li>
                     <li className='col-sm-4 mb-2'>JavaScript</li>
                     <li className='col-sm-4 mb-2'>HTML/CSS</li>
+                    <li className='col-sm-4 mb-2'>jQuery</li>
                     <li className='col-sm-4 mb-2'>MongoDB</li>
                     <li className='col-sm-4 mb-2'>Express.js</li>
                     <li className='col-sm-4 mb-2'>React.js</li>

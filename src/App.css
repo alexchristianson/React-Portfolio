@@ -95,7 +95,12 @@ section p {
   font-size:large;
 }
 
+a.resume {
+  margin: 20px;
+}
+
 footer {
   background-color: rgb(5, 179, 164);
   border-top: 2px rgb(55, 9, 73);
+  height: 75px;
 }

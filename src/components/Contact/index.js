@@ -37,7 +37,7 @@ function Contact() {
     return (
         <section>
             <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label className="col-12 mt-3 mb-3 me-3" htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
@@ -56,7 +56,9 @@ function Contact() {
                     </div>
                 )}
                 <button className="btn-secondary mt-3 mb-5" type="submit">Submit</button>
-            </form>
+            </form> */}
+            <h3>Email: alex.christianson05@gmail.com</h3>
+            <h3>Phone: (715)540-6321</h3>
         </section>
     );
 }
